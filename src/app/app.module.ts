@@ -19,9 +19,11 @@ import { ReturnComponent } from './components/return/return.component';
 import { DailyofferComponent } from './components/home/dailyoffer/dailyoffer.component';
 import { ProductCardComponent } from './shared/components/product-card/product-card.component';
 import { CardButtonComponent } from './shared/components/card-button/card-button.component';
+import { BeautyofferComponent } from './components/home/beautyoffer/beautyoffer.component';
+import { SearchComponent } from './components/header/search/search.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, ProductsComponent, ContactComponent, AboutComponent, PrivacyComponent, GalleryComponent, SupportComponent, ReturnComponent, DailyofferComponent, ProductCardComponent, CardButtonComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, ProductsComponent, ContactComponent, AboutComponent, PrivacyComponent, GalleryComponent, SupportComponent, ReturnComponent, DailyofferComponent, ProductCardComponent, CardButtonComponent, BeautyofferComponent, SearchComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
