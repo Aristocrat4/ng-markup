@@ -1,31 +1,33 @@
-<footer
-  class="flex justify-between min-h-5 text-white bg-blue-500 items-end pt-4 pb-4 pl-8 pr-8"
->
-  <div>
-    <nav>
+<footer class="min-h-5 text-white bg-blue-500 items-end">
+  <div class="set-container flex justify-between pt-4 pb-4 pl-8 pr-8">
+    <div>
+      <nav>
+        <ul class="flex flex-col gap-1 text-lg">
+          <li class="cursor-pointer"><a routerLink="/">Home</a></li>
+          <li class="cursor-pointer"><a routerLink="/about">About</a></li>
+          <li class="cursor-pointer"><a routerLink="/products">Products</a></li>
+          <li class="cursor-pointer"><a routerLink="/contact"></a>Contact</li>
+        </ul>
+      </nav>
+    </div>
+    <div>
       <ul class="flex flex-col gap-1 text-lg">
-        <li class="cursor-pointer"><a routerLink="/">Home</a></li>
-        <li class="cursor-pointer"><a routerLink="/about">About</a></li>
-        <li class="cursor-pointer"><a routerLink="/products">Products</a></li>
-        <li class="cursor-pointer"><a routerLink="/contact"></a>Contact</li>
+        <li class="cursor-pointer">
+          <a routerLink="/privacy">Privacy Policy</a>
+        </li>
+        <li class="cursor-pointer">
+          <a routerLink="/support">Customer Support</a>
+        </li>
+        <li class="cursor-pointer">
+          <a routerLink="/return">Return Policy</a>
+        </li>
+        <li class="cursor-pointer"><a routerLink="/gallery">Gallery</a></li>
       </ul>
-    </nav>
-  </div>
-  <div>
-    <ul class="flex flex-col gap-1 text-lg">
-      <li class="cursor-pointer">
-        <a routerLink="/privacy">Privacy Policy</a>
-      </li>
-      <li class="cursor-pointer">
-        <a routerLink="/support">Customer Support</a>
-      </li>
-      <li class="cursor-pointer"><a routerLink="/return">Return Policy</a></li>
-      <li class="cursor-pointer"><a routerLink="/gallery">Gallery</a></li>
-    </ul>
-  </div>
-  <div class="flex gap-4">
-    <p>icon</p>
-    <p>icon</p>
-    <p>icon</p>
+    </div>
+    <div class="flex gap-4">
+      <p>icon</p>
+      <p>icon</p>
+      <p>icon</p>
+    </div>
   </div>
 </footer>

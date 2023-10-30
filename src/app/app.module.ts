@@ -21,9 +21,10 @@ import { ProductCardComponent } from './shared/components/product-card/product-c
 import { CardButtonComponent } from './shared/components/card-button/card-button.component';
 import { BeautyofferComponent } from './components/home/beautyoffer/beautyoffer.component';
 import { SearchComponent } from './components/header/search/search.component';
+import { AnnouncementComponent } from './components/header/announcement/announcement.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, ProductsComponent, ContactComponent, AboutComponent, PrivacyComponent, GalleryComponent, SupportComponent, ReturnComponent, DailyofferComponent, ProductCardComponent, CardButtonComponent, BeautyofferComponent, SearchComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, ProductsComponent, ContactComponent, AboutComponent, PrivacyComponent, GalleryComponent, SupportComponent, ReturnComponent, DailyofferComponent, ProductCardComponent, CardButtonComponent, BeautyofferComponent, SearchComponent, AnnouncementComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

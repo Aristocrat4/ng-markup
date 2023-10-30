@@ -7,13 +7,16 @@ body {
   height: 100%;
 }
 body {
-  max-width: 1300px;
-  width: 100%;
-  margin: 0 auto;
+  min-height: 100%;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+.set-container {
+  max-width: 1560px;
+  width: 100%;
+  margin: 0 auto;
 }
